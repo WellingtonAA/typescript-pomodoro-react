@@ -16,9 +16,6 @@ body {
   max-width: 640px;
   margin: 0 auto;
 }
-.working {
-  background: #ef5d50;
-}
 
 .hidden {
   display: none;
@@ -54,7 +51,7 @@ body {
   cursor: pointer;
   padding: 10px 25px;
   color: #000;
-  transition: 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
   border-radius: 4px;
   margin: 20px auto;
 }
@@ -66,4 +63,8 @@ body {
 .working .pomodoro button {
   background: #ef5d50;
   color: #fff;
+}
+
+.working {
+  background: #ef5d50;
 }
