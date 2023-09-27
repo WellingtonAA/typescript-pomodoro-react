@@ -9,12 +9,10 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', 'prettier'],
-  rules: {
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
-    'prettier/prettier': 'error',
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: 'module',
   },
+  plugins: ['@typescript-eslint'],
+  rules: {},
 };
